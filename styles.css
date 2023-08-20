@@ -1,0 +1,83 @@
+/* Reset some default styling */
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    background-color: #fce2ca;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+main {
+    padding: 2rem;
+}
+
+.product-section {
+    /* Styling for product section */
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    /* Styling for contact section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust this for desired centering */
+}
+
+.contact-container {
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Styling for form inputs and button */
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Example CSS for styling the image-container */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.image-container h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.image-container p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}

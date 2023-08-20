@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include the script.js file -->
+    <script src="script.js"></script>
+    <title>Fictional Product Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Fictional Product</h1>
+    </header>
+    <main>
+        <section class="product-section">
+            <!-- Product information and details -->
+        </section>
+        <section class="contact-section">
+            <!-- Image, Title, and Description -->
+            <div class="image-container">
+                <img src="images/rose.jpg" alt="Product Image">
+                <h2>Product Title</h2>
+                <p>Product Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </section>
+        <section class="contact-section">
+            <!-- Centered Contact Form -->
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <form id="contact-form" action="contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="thank-you" style="display: none;">Thank you for your message!</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>
